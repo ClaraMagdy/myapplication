@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type here:"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        app:backgroundTint="@color/purple_200" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        app:backgroundTint="#673AB7" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:text="TextView" />
+
+</LinearLayout>
